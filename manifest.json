@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "SnapShot",
+    "description": "SnapShot is a lightweight, user-friendly browser extension that allows you to capture screenshots of web pages with a single click.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "/popup/popup.html",
+      "default_icon": "maximize.png"
+    },
+    "permissions": ["activeTab", "tabs"],
+    "host_permissions": ["<all_urls>"]
+  }
